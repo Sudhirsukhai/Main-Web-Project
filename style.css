@@ -11,9 +11,16 @@ html{
   margin-top:30px;
   margin-bottom:30px;
 }
-#lblSuggestions{
+#PageFooter{
+  margin-top:75px;
   color:red;
 }
 #Content{
   margin-top:50%;
+}
+#btnHealthPage,#btnEduGame{
+  margin-right:20px;
+  }
+#btnInterCalc, #btnResEng{
+  padding:10px;
 }
