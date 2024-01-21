@@ -4,7 +4,7 @@ function addListeners(){
   document.getElementById("btnHealthPage").addListener("click",ToHealth)
   document.getElementById("btnInterCalc").addListener("click",ToCalc)
   document.getElementById("btnEduGame").addListener("click",ToGame)
-  document.getElementById("btnResEng").addListener("click",ToHealth)
+  document.getElementById("btnSearchEng").addListener("click",ToHealth)
 }
 
 function ToHealth(){
@@ -19,6 +19,6 @@ function ToGame(){
   
 }
 
-function ToHealth(){
+function ToSearch(){
   
 }
