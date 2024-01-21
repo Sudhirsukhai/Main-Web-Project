@@ -1,3 +1,13 @@
 body{
-  background-image: linear-gradient(to bottom right,#f5c7f7 ,#e3f6f5);
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top right,#f5c7f7 ,#b6e1e0);
+}
+html{
+  height:100%;
+}
+#MainHead{
+  font-size: 50px;
+  text-align: center;
+  margin-top:30px;
+  margin-bottom:30px;
 }
