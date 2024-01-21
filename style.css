@@ -12,30 +12,33 @@ html{
   margin-bottom:30px;
 }
 #PageFooter{
-  margin-top:75px;
+  margin-top:100px;
   color:red;
 }
 #Content{
   margin-top:50%;
 }
 #btnHealthPage{
+  background-image: linear-gradient(to bottom left,#f5c7f7,#b6e1e0);
   font-size:18px;
   padding:25px;
   margin-right:100px;
 }
 #btnEduGame{
-  
+  background-image: linear-gradient(to bottom left,#f5c7f7,#b6e1e0);
   font-size:18px;
   padding:25px;
   margin-top:20px;
-  margin-right:75px;
-  margin-left:-75px;
+  margin-right:77px;
+  margin-left:-77px;
   }
 #btnInterCalc{
+  background-image: linear-gradient(to bottom left,#f5c7f7,#b6e1e0);
   font-size:18px;
   padding:25px;
 }
 #btnResEng{
+  background-image: linear-gradient(to bottom left,#f5c7f7,#b6e1e0);
   font-size:18px;
   margin-top:20px;
   padding:25px;
