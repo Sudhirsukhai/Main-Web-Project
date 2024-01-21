@@ -1,6 +1,7 @@
 body{
   background-repeat: no-repeat;
   background-image: linear-gradient(to top right,#f5c7f7 ,#b6e1e0);
+  height:100%;
 }
 html{
   height:100%;
@@ -16,7 +17,7 @@ html{
   color:red;
 }
 #Content{
-  margin-top:50%;
+  margin-top:30px;
 }
 #btnHealthPage{
   background-image: linear-gradient(to bottom left,#f5c7f7,#b6e1e0);
