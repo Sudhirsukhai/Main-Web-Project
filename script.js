@@ -8,15 +8,15 @@ function addListeners(){
 }
 
 function ToHealth(){
-  window.location.replace("https://health-page.glitch.me/");
+  window.location.href = "https://health-page.glitch.me/";
 }
 
 function ToCalc(){
-  window.location.href = "Calc.html";
+  window.location.href = "https://main-interactive-calculator.glitch.me/";
 }
 
 function ToGame(){
-  window.location.href = "Game.html";
+  window.location.href = "https://main-interactive-calculator.glitch.me/";
 }
 
 function ToSearch(){
