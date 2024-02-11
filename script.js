@@ -16,7 +16,7 @@ function ToCalc(){
 }
 
 function ToGame(){
-  window.location.href = "https://main-interactive-calculator.glitch.me/";
+  window.location.href = "https://main-game-page.glitch.me/";
 }
 
 function ToSearch(){
