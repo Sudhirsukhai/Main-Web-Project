@@ -1,0 +1,164 @@
+body {
+  font-family: monospace,lucida console;
+  background-color: #69F7BE;
+  text-align:center;
+}
+
+h1{
+  font-size:50px;
+}
+
+#MainSelectors{
+  margin-top:30px;
+}
+
+#MainSelectors button{
+  width:300px;
+  height:100px;
+  margin-top:30px;
+  font-size:30px;
+}
+
+#btnLivingEnv,#btnTrig{
+  margin-left:60px;
+}
+
+/* Game1 */
+
+#Game1Ans{
+  text-align:left;
+}
+
+#Game1Words{
+  padding-top:20px;
+  margin-left:80px;
+  border:solid 2px;
+  width: 1200px;
+  height:120px;
+  font-size:30px;
+}
+#Game1Words label{
+  margin-bottom:10px;
+}
+#Game1Ans label{
+  font-size:28px;
+}
+#Game1Ans input{
+  height:28px;
+  width:19px;
+  font-size:28px;
+}
+#ChemWord2{
+  margin-top:20px;
+}
+
+#btnGame1Submit{
+  font-size:20px;
+  width:120px;
+}
+
+/* Game2 */
+
+#Game2Ans{
+  text-align:left;
+}
+
+#Game2Words{
+  padding-top:20px;
+  margin-left:80px;
+  border:solid 2px;
+  width: 1200px;
+  height:150px;
+  font-size:30px;
+}
+#Game2Words label{
+  margin-bottom:10px;
+}
+#Game2Ans label{
+  font-size:28px;
+}
+#Game2Ans input{
+  height:28px;
+  width:19px;
+  font-size:28px;
+}
+#LivEnvWord{
+  margin-top:20px;
+}
+
+#btnGame2Submit{
+  font-size:20px;
+  width:120px;
+}
+
+/* Game 3 */
+#Game3Ans{
+  margin-left:30px;
+  text-align:left;
+}
+#Game3Ans label{
+  width:auto;
+  font-size:28px;
+}
+#Game3Ans input{
+  height:28px;
+  width:19px;
+  font-size:28px;
+}
+#Game3Ans ol{
+  height:28px;
+  width:1000px;
+  font-size:28px;
+}
+#btnGame3Submit{
+  position:absolute;
+  margin-top: 2005px;
+  font-size:20px;
+  width:120px;
+}
+
+/* Game4 */
+#Game4Ans{
+  margin-left:30px;
+  text-align:left;
+}
+#Game4Ans label{
+  width:auto;
+  font-size:28px;
+}
+#Game4Ans input{
+  height:28px;
+  width:200px;
+  font-size:28px;
+}
+
+#btnGame4Submit{
+  font-size:20px;
+  width:120px;
+}
+/* results */
+#Results{
+  font-size:150px;
+}
+#lblscore1{
+  margin-left:-50px;
+  z-index: 2;
+}
+#lblSep{
+  margin-left:-10px;
+  margin-top:-130px;
+  position:absolute;
+  z-index: -1;
+}
+#lblTotal{
+  position:absolute;
+  margin-top:-240px;
+  z-index: -2;
+  margin-left:30px;
+}
+#lblscore2{
+  margin-left:-140px;
+  position:absolute;
+  margin-top:-200px;
+  font-size:100px;
+}

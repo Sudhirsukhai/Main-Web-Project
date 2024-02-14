@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Health Page</title>
+    <link rel="stylesheet" href="health.css" />
+    <script src="health.js"></script>
+  </head>
+  <body>
+    <div id="Reportselector">
+    <h1>
+      Do you want to create a health report: 
+    </h1>
+      <button id="btnReportY">Yes</button>
+      <button id="btnReportN">No</button>
+      <br><br><br>
+      <label id="lblnote">
+        *note "yes" will atake you to a short form type questionare with and end 
+        report, while "no" will let you select the specific calculations you want
+      </label>
+    </div>
+    <div id="InputHead">
+      <h1 id = "ReportHead">
+        Your report
+      </h1>
+      <hr>
+    </div>
+    <div id="Mainselectors">
+      <button id="btnBMI">
+        BMI
+      </button>
+      <button id="btnBMR">
+        BMR
+      </button>
+      <button id="btnBFP">
+        BFP
+      </button>
+      <hr>
+    </div>
+    <div id="Inputs">
+      <div id="Name">
+        <label   for="txtFname" id="lblFname">
+          What's your first name:
+        </label>
+        <input type="text" id="txtFname">
+        <label   for="txtLname" id="lblLname">
+          &ensp;&ensp;&ensp;What's your last name:
+        </label>
+        <input type="text" id="txtLname">
+      </div>
+      <div id="Reginfo">
+        <br>
+        <label for="cmbGender" id="lblGender">What's your biological gender:</label>
+        <select name = "cmbGender" id="cmbGender">
+          <option value=""></option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select>
+        <label for="txtAge" id="lblAge">What's your age: &nbsp;</label>
+        <input type="number" id="txtAge">
+      </div>
+          <br>
+        <label for="txtWeight" id="lblWeight">What's your weight (lb): &nbsp;</label>
+        <input type="number" id="txtWeight">
+        <label   for="txtHeightFt" id="lblHeightFt">
+           &ensp; &emsp;Whats your height: &nbsp; &nbsp;Feet&nbsp;
+        </label>
+        <input type="number" id="txtHeightFt">
+        <label for="txtHeightIn" id="lblHeightIn">&ensp;&nbsp;Inches &nbsp;</label>
+        <input type="number" id="txtHeightIn">
+          <br><br>
+      <div id="Submitbtns">
+        <button id="btnSubmitBMI">
+          Submit
+        </button>
+        <button id="btnSubmitBMR">
+          Submit
+        </button>
+        <button id="btnSubmitBFP">
+          Submit
+        </button>
+        <button id="btnSubmitReport">
+          Submit
+        </button>
+      </div>
+    </div>
+      
+    <div id="Result">
+      <label id="lblResultBMI"></label><br>
+      <label id="lblResultBMR"></label><br>
+      <label id="lblResultBFP"></label><br>
+    </div>
+    <div id="Report">
+      <table id="tblReport">
+        <tr>
+          <td id="repFname"></td>
+          <td id="repLname"></td>
+          <td id="repAge"></td>
+          <td id="repGender"></td>
+        </tr>
+        <tr>
+          <td id="repBMI"></td>
+          <td id="repBMR"></td>
+          <td id="repBFP"></td>
+          <td>
+            <button id="btnReportBack">
+              Back
+            </button> 
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

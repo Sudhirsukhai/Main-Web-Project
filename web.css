@@ -1,0 +1,29 @@
+html{
+  font-size:30px;
+  color: 	darkgreen;
+  height:100%;
+}
+body{
+  background-image: linear-gradient(to bottom right, springgreen, lightsteelblue);
+  margin-top:5%;
+  text-align:center;
+}
+
+#cmbSearch{
+  font-size:20px;
+  width:220px;
+  height:30px;
+  padding-top:7px;
+}
+
+#btnSearch{
+  position: absolute;
+  font-size:20px;
+  padding-top:7px;
+  margin-top:-3px;
+  margin-left:5px;
+}
+
+#Results{
+  font-family: Arial, Verdana, sans-serif;
+}

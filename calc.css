@@ -1,0 +1,50 @@
+body
+{
+	padding-top: 80px;
+  margin:auto;
+  text-align:center;
+  background-color:#ba860c;
+}
+#screen
+{
+  background-color:#f6b327;
+  margin-top:30px;
+  margin-left:5px;
+	border: solid;
+	border-width: 0.5px;
+	padding-left: 190px;
+	padding-right: 190px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	width:200px;
+	height:200px;
+  font-size:18px;
+}
+#btns
+{
+	margin-top:40px;
+  padding-left:7px;
+  margin-left:-20px;
+}
+button
+{
+	width:60px;
+	height:60px;
+	margin-top: 5px;
+  background-color:#f6b327;
+}
+#btnC
+{
+	width:125px;
+	height:60px;
+}
+#btnEqu
+{
+  width:125px;
+	height:60px;
+}
+#screenpara
+{
+  padding-top:50px;
+  padding-right:15px;
+}

@@ -8,11 +8,11 @@ function addListeners(){
 }
 
 function ToHealth(){
-  window.location.href = "https://health-page.glitch.me/";
+  window.location.href = "\game.html";
 }
 
 function ToCalc(){
-  window.location.href = "https://main-interactive-calculator.glitch.me/";
+  window.location.href = "\game.html";
 }
 
 function ToGame(){
