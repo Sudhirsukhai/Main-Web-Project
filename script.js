@@ -4,7 +4,7 @@ function addListeners(){
   document.getElementById("btnHealthPage").addEventListener("click",ToHealth)
   document.getElementById("btnInterCalc").addEventListener("click",ToCalc)
   document.getElementById("btnEduGame").addEventListener("click",ToGame)
-  document.getElementById("btnSearchEng").addEventListener("click",ToHealth)
+  document.getElementById("btnSearchEng").addEventListener("click",ToSearch)
 }
 
 function ToHealth(){
@@ -20,5 +20,5 @@ function ToGame(){
 }
 
 function ToSearch(){
-  window.location.href = "Search.html";
+  window.location.href = "https://main-search-engine.glitch.me/";
 }
